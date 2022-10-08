@@ -4,7 +4,7 @@ from models import Usuarios
 from helpers import FormularioUsuario
 from flask_bcrypt import check_password_hash
 
-app.route('/login')
+@app.route('/login')
 def login():
     proxima = request.args.get('proxima')
     form = FormularioUsuario()
@@ -30,4 +30,3 @@ def logout():
     session['usuario_logado'] = None
     flash('Logout')
     return redirect(url_for('index'))
-
