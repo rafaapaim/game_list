@@ -11,9 +11,6 @@
 ### Objetivo
 ---
 Aplicação web em python e HTML utilizando o framework Flask
-<h4 align="center"> 
-	🚧  Em construção...  🚧
-</h4>
 
 ### Tecnologias
 ---
