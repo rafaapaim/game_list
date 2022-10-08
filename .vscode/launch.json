@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Jogoteca",
+            "type": "python",
+            "request": "launch",
+            "program": "jogoteca.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
             "name": "Python: Arquivo Atual",
             "type": "python",
             "request": "launch",
